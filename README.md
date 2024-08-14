@@ -1,2 +1,16 @@
-# ANDRES-SIS-112
-UCB-ANDRES GALLARDO GARCIA-PROGRAMACION-SIS 112-2024
+# PROGRAMACIÓN 1-SIS102
+
+ESte repositorio sera utilizado para todas la presentacion de las tareas designadas en la materia de PROMACION 1/SIS-112
+
+### Datos Personales Del Estudiante:
+* *Nombre Completo:* ANDRES GALLARDO GARCIA 
+* *Asignatura:* PROGRAMACION 1/SIS 112/2024
+
+![logo programación 1](https://images.app.goo.gl/XbsBj8eZYCPvXBLD9)
+
+## Clonar un repositorio
+Para clonar este repositorio, utiliza el siguiente comando en git bash:
+1. Copia la URL del repositorio.3
+2. Abre Git Bash.
+3. Navega a la carpeta donde deseas clonar el repositorio usando "cd" o abrela desde tu Explorador de Archivos.
+4. Usa el comando "git clone" y presiona enter.
