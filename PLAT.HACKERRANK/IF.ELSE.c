@@ -2,7 +2,7 @@
 
 int main() {
     int n;
-    // Aquí debes leer el valor de n, por ejemplo usando scanf
+
     scanf("%d", &n);
     
     if (n % 2 != 0) {  
