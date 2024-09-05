@@ -18,6 +18,7 @@ for i in range(estudiantes): # Se crea un bucle con un rango de los números de 
     promediosNotas.append(promedioNotas) # Guardar el promedio de las notas del estudiante
     matricesNotas.append(notas) # Guardar la lista de notas del estudiante
     promedioGeneral = sum(promediosNotas)/estudiantes
+    
 # Imprimir las matrices de notas, sumatorias y promedios
 print("--------------------------------------------------")
 print("Matrices de notas de los estudiantes:") # Mensaje general que indica que se mostrarán las matrices 
