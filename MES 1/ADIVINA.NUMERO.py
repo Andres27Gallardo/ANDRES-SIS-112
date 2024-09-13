@@ -8,6 +8,7 @@ contador = 0
 
 while True:
     numeroUsu= int(input("Seleccione un numero: "))
+    contador = contador+1
     if numeroUsu < numeroAle:
         print("Demasiado bajo, intente de nuevo")
     elif numeroUsu > numeroAle:
@@ -16,7 +17,7 @@ while True:
         print("---------------")
         print("¡¡¡¡¡Felicidades!!!!")
         break
-    contador = contador+1
-
+    
+        
 print("El numero de intentos es: ",contador)
 print("----------------")
