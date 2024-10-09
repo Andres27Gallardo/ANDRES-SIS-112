@@ -1,24 +1,29 @@
 import funcioneseje3 as tarea
 import time
-lista_datos=[]
-tamaño=int(input("Ingrese el rango de la lista: "))
-minimo=int(input("Ingrese el valor minimo de la lista: "))
-maximo=int(input("Ingrese el valor maximo de la lista: "))
 
+lista=[]
+rang=int(input("Dame el numero de elementos de la lista: "))
+Vmin=int(input("Dame el valor minimo que debe tener: "))
+Vmax=int(input("Dame el valor maximo que debe tener: "))
 inicio=time.time()
-tarea.geneList(lista_datos,tamaño,minimo,maximo)
+tarea.generarLista(rang, Vmin, Vmax, lista)
 fin=time.time()
 
-#inienclista = time.time()
-#tarea.encontrarNumero()
-#finenclista = time.time()
 
-print(f"tiempo transcurrido de la generación de la lista \n{(fin-inicio)*1000} ms")
-#print(lista_datos)
-print(len(lista_datos))
-print(type(lista_datos))
-num=int(input("Ingrese el numero a encontrar: "))
+print(f"la lista resultante es: {lista}")
+print(f"numero de componentes: {len(lista)}")
+print(type(lista))
+x=sorted(lista)
+num=int(input("Ingrese el numero que desea encontrar: "))
+ini2=time.time()
+tarea.encontrarNumero(lista, num)
+fin2=time.time()
 
-tarea.encontrarNumero(lista_datos,num)
+print(x)
+ini3=time.time()
+tarea.busqueda_binaria(x, num)
+fin3=time.time()
 
-#print(f"tiempo transcurrido que tardo en encontrar el numero \n{(inienclista-finenclista)*1000} ms")
+print(f"el tiempo transcurrdio de la generacion de la lista \n {(fin-inicio)*1000} ms")
+print(f"el tiempo transcurrdio de la busqueda lineal fue: \n {(fin2-ini2)*1000} ms")
+print(f"el tiempo transcurrdio de la busqueda binaria fue: \n {(fin3-ini3)*1000} ms")
