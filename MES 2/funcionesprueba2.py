@@ -10,7 +10,7 @@ def menu():
 
 def Ingresar_lista():
     numero_ingresar = input(int("Ingresa el numero: "))
-    if numero_ingresar in lista:
+    if numero_ingresar in lista_generado:
         print("Este numero ya existe dentro de la lista")
     else:
         lista_generado.append(numero_ingresar)
@@ -22,11 +22,13 @@ def generar_lista_aleatorio(n):
     numero_final = int(input("Seleccione el numero que desea finalizar: "))
     for i in range(0,numero_deseado):
         numeros_random = random.choices(numero_inicio,numero_final)
-        lista_aleatorio.append(numeros_random)
+        lista_aletorio.append(numeros_random)
     
 def ordenar_lista(lista):
-    
-
+    opcion_lista_ordenar = int(input("Seleccione que lista desea ordenar: "))
+    if opcion_lista_ordenar == 1:
+        
+        
 def busqueda_lineal(lista, numero):
     
     
