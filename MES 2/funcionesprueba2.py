@@ -24,15 +24,15 @@ def generar_lista_aleatorio(n):
         numeros_random = random.choices(numero_inicio,numero_final)
         lista_aletorio.append(numeros_random)
     
-def ordenar_lista(lista):
+def ordenar_lista(lista): #Ordenar por el metodo burbuja, mediendo en cuanto tiempo tarda en realizar
     opcion_lista_ordenar = int(input("Seleccione que lista desea ordenar: "))
     if opcion_lista_ordenar == 1:
         
         
-def busqueda_lineal(lista, numero):
+def busqueda_lineal(lista, numero): # Midiendo el tiempo en cuanto tarda en realizar la operacion
     
     
-def busqueda_binaria(lista,numero):
+def busqueda_binaria(lista,numero):  # Midiendo el tiempo en cuanto tarda en realizar la operacion
     
     
     
